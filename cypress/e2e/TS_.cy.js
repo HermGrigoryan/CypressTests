@@ -1,4 +1,4 @@
-gitimport { loginPage } from "../pages/SignIn";
+import { loginPage } from "../pages/SignIn";
 import { data } from "../utils/data";
 describe("SignIn", () => {
   it("Verify login functionality with valid credentials", () => {
