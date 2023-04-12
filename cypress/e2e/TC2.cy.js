@@ -1,7 +1,7 @@
 import { loginPage } from "../pages/SignUp";
 import { data } from "../utils/data";
 describe("SignIn", () => {
-  it.only("Verify Sign in functionality with valid credentials", () => {
+  it("Verify Sign in functionality with valid credentials", () => {
     loginPage.visit(); //read once more about should assertion
     loginPage.getFirstName(data.firstName);
     loginPage.getLastName(data.lastName);
